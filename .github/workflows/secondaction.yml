@@ -1,10 +1,10 @@
-name:	Second Workflow
-on:	workflow_dispatch
+name: Second Workflow
+on: workflow_dispatch
 jobs:
-	multiaction:
-		runs-on:	ubuntu-latest
+	first-job:
+		runs-on: ubuntu-latest
 		steps:
-			- name: print_multiecho
+			- name: multicommand
 			  run: |
-				   echo "First Line command"
-				   echo "Second Line command"	
+				  echo "First Command"
+				  echo "Second Command"
