@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name:  print_multiecho
-      run: |
+       run: |
           echo "First command"
           echo "Second Command"
           
