@@ -4,8 +4,8 @@ jobs:
   multiaction:
     runs-on: ubuntu-latest
     steps:
-      -name:  print_multiecho
-       run:  |
+      - name:  print_multiecho
+        run:  |
             echo "First command"
             echo "Second Command"
           
